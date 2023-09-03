@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Harabara';
+  src: url('./fonts/Harabara.ttf');
+}
+
+@layer base {
+  .link {
+    @apply cursor-pointer hover:underline;
+  }
+}
