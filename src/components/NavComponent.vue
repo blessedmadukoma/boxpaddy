@@ -1,12 +1,18 @@
 <template>
-  <nav class="max-w-5xl mx-auto w-full font-lato font-bold text-lg">
-    <ul class="flex justify-between mx-10">
-      <li class="link">BoxPaddy</li>
-      <div class="flex space-x-5">
+  <nav class="max-w-5xl mx-auto w-full font-lato font-semibold text-[17px]">
+    <ul class="flex items-center justify-between mx-10">
+      <li class="link">
+        <IconLogo />
+      </li>
+      <div class="flex">
         <li class="link">Home</li>
-        <li class="link">Driver</li>
-        <li class="link">FAQ</li>
+        <li class="link ml-20">Driver</li>
+        <li class="link ml-20">FAQ</li>
       </div>
     </ul>
   </nav>
 </template>
+
+<script setup>
+import IconLogo from '../components/icons/IconLogo.vue'
+</script>
