@@ -57,16 +57,66 @@
       </section>
     </section>
 
-    <!-- What to expect -->
+    <!-- What to expect header -->
     <section class="text-center">
       <h2 class="text-5xl mt-16">What You Expect From <span class="text-primary-purple tracking-wide">BoxPaddy</span></h2>
 
-      <p class="mt-8 font-lato tracking-wider">Download <span class="text-primary-purple tracking-wide">BoxPaddy</span>
+      <p class="mt-8 font-lato text-lg tracking-wider">Download <span
+          class="text-primary-purple tracking-wide">BoxPaddy</span>
         from the Apple Store
         or Google Play Store, create an account, then sit back
         as <br> your item is
         safely transported to wherever you want it to go.</p>
     </section>
+
+
+    <!-- What to expect image -->
+    <section class="mt-20 flex justify-between px-10">
+      <div class="flex flex-col justify-between text-right w-1/4">
+        <div class="flex items-end justify-center flex-col">
+          <img src="../assets/svgs/cart.svg" alt="">
+          <p class="mt-4 text-lg">Fast and Safe</p>
+          <p class="mt-2 tracking-wide font-lato font-light">Experience peace of mind <br> as your package is <br>
+            delivered fast, easy
+            and safe
+          </p>
+        </div>
+
+        <div class="flex items-end justify-center flex-col">
+          <img src="../assets/svgs/cart.svg" alt="">
+          <p class="mt-4 text-lg">Track your package</p>
+          <p class="mt-2 tracking-wide font-lato font-light">Be able to track and view <br> your packages current <br>
+            location in
+            real time</p>
+        </div>
+      </div>
+
+      <div class="relative w-2/4">
+        <img src="../assets/svgs/circles.svg" alt="" />
+        <img src="../assets/svgs/phone_mockup.svg" alt="" class="absolute top-12 right-40" />
+      </div>
+
+      <div class="flex flex-col justify-between text-left w-1/4">
+        <div class="flex items-start justify-center flex-col">
+          <img src="../assets/svgs/cart.svg" alt="">
+          <p class="mt-4 text-lg">Fast and Safe</p>
+          <p class="mt-2 tracking-wide font-lato font-light">We deliver to your home, <br> office or whichever <br>
+            location you
+            choose
+          </p>
+        </div>
+
+        <div class="flex items-start justify-center flex-col">
+          <img src="../assets/svgs/cart.svg" alt="">
+          <p class="mt-4 text-lg">Fast and Safe</p>
+          <p class="mt-2 tracking-wide font-lato font-light">We deliver to your home, <br> office or whichever <br>
+            location you
+            choose
+          </p>
+        </div>
+      </div>
+    </section>
+
 
     <div>
       <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
