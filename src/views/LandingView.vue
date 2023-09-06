@@ -71,7 +71,7 @@
 
 
     <!-- What to expect image -->
-    <section class="mt-20 flex justify-between px-10">
+    <section class="mt-20 flex justify-between px-10 tracking-wide">
       <div class="flex flex-col justify-between text-right w-1/4">
         <div class="flex items-end justify-center flex-col">
           <img src="../assets/svgs/cart.svg" alt="">
@@ -99,7 +99,7 @@
       <div class="flex flex-col justify-between text-left w-1/4">
         <div class="flex items-start justify-center flex-col">
           <img src="../assets/svgs/cart.svg" alt="">
-          <p class="mt-4 text-lg">Fast and Safe</p>
+          <p class="mt-4 text-lg">Deliver to place of comfort</p>
           <p class="mt-2 tracking-wide font-lato font-light">We deliver to your home, <br> office or whichever <br>
             location you
             choose
@@ -109,9 +109,9 @@
         <div class="flex items-start justify-center flex-col">
           <img src="../assets/svgs/cart.svg" alt="">
           <p class="mt-4 text-lg">Fast and Safe</p>
-          <p class="mt-2 tracking-wide font-lato font-light">We deliver to your home, <br> office or whichever <br>
-            location you
-            choose
+          <p class="mt-2 tracking-wide font-lato font-light">Experience peace of mind <br> as your package is <br>
+            delivered fast, easy
+            and safe
           </p>
         </div>
       </div>
