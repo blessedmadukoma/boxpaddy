@@ -117,6 +117,42 @@
       </div>
     </section>
 
+    <!-- FAQs -->
+    <section class="flex justify-between mx-48 mt-20 bg-[#D4D4F1] bg-opacity-[0.22] rounded-xl p-14 ">
+      <div class="w-1/2 mr-10">
+        <div class="text-center">
+          <p class="text-3xl text-primary-purple">Frequently Asked Questions</p>
+          <p class="font-light text-lg mt-4 tracking-wider">How can we help you?</p>
+        </div>
+
+        <div class="font-lato mt-10 space-y-3 text-sm">
+          <div class="flex justify-between items-center bg-white p-4 rounded-xl">
+            <span>What is BoxPaddy?</span>
+            <img class="mr-2" src="../assets/svgs/right-arrow.svg" />
+          </div>
+
+          <div class="flex justify-between items-center bg-white p-4 rounded-xl">
+            <span>Who can use BoxPaddy?</span>
+            <img class="mr-2" src="../assets/svgs/right-arrow.svg" />
+          </div>
+
+          <div class="flex justify-between items-center bg-white p-4 rounded-xl">
+            <span>How can I become a driver on BoxPaddy?</span>
+            <img class="mr-2" src="../assets/svgs/right-arrow.svg" />
+          </div>
+
+          <div class="flex justify-between items-center bg-white p-4 rounded-xl">
+            <span>How can I insert few destinations in the request details?</span>
+            <img class="mr-2" src="../assets/svgs/right-arrow.svg" />
+          </div>
+        </div>
+      </div>
+      <div class="w-1/2">
+        <img class="w-full" src="../assets/svgs/question.svg" />
+      </div>
+    </section>
+
+    <!-- Outro section -->
 
     <div>
       <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
