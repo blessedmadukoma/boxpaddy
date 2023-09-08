@@ -2,13 +2,13 @@
   <div class="flex text-white pt-4 text-xl">
     <button
       class="cursor-pointer bg-primary-purple rounded-[10px] py-4 px-10 flex justify-center items-center text-center">
-      <IconApple />
+      <IconApple color="white" />
       <span class="ml-2 tracking-wider">App Store</span>
     </button>
 
     <button
       class="ml-8 cursor-pointer bg-primary-purple rounded-[10px] py-4 px-10 flex justify-center items-center text-center">
-      <IconPlaystore />
+      <IconPlaystore :color="'white'" />
       <span class="ml-2 tracking-wider">Play Store</span>
     </button>
   </div>

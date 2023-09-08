@@ -1,15 +1,51 @@
 <template>
-  <svg width="30" height="25" viewBox="0 0 37 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg width="37" height="35" viewBox="0 0 37 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path
+      d="M33.786 15.7447C35.1745 16.503 35.1745 18.497 33.786 19.2553L12.2086 31.0396C10.8759 31.7675 9.25 30.8029 9.25 29.2843L9.25 5.71567C9.25 4.19708 10.8759 3.23251 12.2086 3.96039L33.786 15.7447Z"
+      :fill="props.color" />
+    <path
+      d="M31.5 20.4999L12.2089 31.0388C10.8761 31.7669 9.25 30.8023 9.25 29.2836L9.25 5.74468C9.25 4.03505 11.2561 3.11356 12.5531 4.22744L31.5 20.4999Z"
+      :fill="props.color" />
+    <path
+      d="M31.5 14.5001L12.5542 30.7968C11.2576 31.9121 9.25 30.9909 9.25 29.2806L9.25 5.70597C9.25 4.1869 10.8768 3.22237 12.2096 3.95121L31.5 14.5001Z"
+      :fill="props.color" />
+    <line x1="12.6694" y1="3.51321" x2="27.9866" y2="22.7453" :stroke="stroke" />
+    <line x1="28.6517" y1="12.6423" x2="12.1011" y2="31.5545" :stroke="stroke" />
+  </svg>
+  <!-- 
+  <svg width="37" height="35" viewBox="0 0 37 35" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path
       d="M33.786 15.7447C35.1745 16.503 35.1745 18.497 33.786 19.2553L12.2086 31.0396C10.8759 31.7675 9.25 30.8029 9.25 29.2843L9.25 5.71567C9.25 4.19708 10.8759 3.23251 12.2086 3.96039L33.786 15.7447Z"
       fill="white" />
     <path
       d="M31.5 20.4999L12.2089 31.0388C10.8761 31.7669 9.25 30.8023 9.25 29.2836L9.25 5.74468C9.25 4.03505 11.2561 3.11356 12.5531 4.22744L31.5 20.4999Z"
-      fill="#DDDDDD" fill-opacity="0.6" />
+      fill="white" fill-opacity="0.6" />
     <path
       d="M31.5 14.5001L12.5542 30.7968C11.2576 31.9121 9.25 30.9909 9.25 29.2806L9.25 5.70597C9.25 4.1869 10.8768 3.22237 12.2096 3.95121L31.5 14.5001Z"
-      fill="#DDDDDD" fill-opacity="0.5" />
-    <line x1="11.6057" y1="3.44637" x2="34.3062" y2="23.0598" stroke="#5959CB" />
+      fill="white" fill-opacity="0.5" />
+    <line x1="11.6052" y1="3.44637" x2="34.3057" y2="23.0598" stroke="#5959CB" />
     <line x1="32.3237" y1="13.3811" x2="9.46065" y2="32.8047" stroke="#5959CB" />
-  </svg>
+  </svg> -->
 </template>
+
+<script setup>
+import { ref } from 'vue';
+
+
+const props = defineProps({
+  color: String,
+  fill: String,
+})
+
+const stroke = ref('')
+
+const setColors = () => {
+  if (props.color == '#5959cb') {
+    stroke.value = 'white'
+  } else {
+    stroke.value = '#5959CB'
+  }
+}
+
+setColors()
+</script>
