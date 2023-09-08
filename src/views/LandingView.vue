@@ -153,32 +153,7 @@
     </section>
 
     <!-- Outro section -->
-    <section class="mx-36 mt-20 flex rounded-lg bg-[#5959CB] text-white p-8">
-      <aside class="w-1/4 relative">
-        <img class="w-2/4 absolute right-20 -top-5" src="../assets/svgs/phone_mockup.svg" alt="" />
-      </aside>
 
-      <div class="w-3/4 tracking-wider">
-        <p class="text-3xl">Download the BoxPaddy App!!</p>
-        <p class="font-lato mt-4">Boxpaddy is a client-server style mobile logistics application. Users will be
-          supplied
-          with a simple and
-          user-friendly user interface that allows them to reserve rides that will transport their items to both close and
-          far destinations in a timely manner, as well as track their shipments.</p>
-
-        <div class="flex text-primary-purple mt-6 text-xl">
-          <button class="cursor-pointer bg-white rounded-[10px] py-3 px-8 flex justify-center items-center text-center">
-            <IconApple color="#5959cb" />
-            <span class="ml-2 tracking-wider">App Store</span>
-          </button>
-
-          <button class="ml-8 cursor-pointer bg-white rounded-[10px]  px-8 flex justify-center items-center text-center">
-            <IconPlaystore :color="'#5959cb'" />
-            <span class="ml-2 tracking-wider">Play Store</span>
-          </button>
-        </div>
-      </div>
-    </section>
 
     <!-- Footer -->
     <section class="mx-36 mt-20">
@@ -191,7 +166,7 @@
 <script setup>
 import DownloadButtons from '../components/DownloadButtons.vue'
 
-import IconPlaystore from '../components/icons/IconPlaystore.vue'
-import IconApple from '../components/icons/IconApple.vue'
+// import IconPlaystore from '../components/icons/IconPlaystore.vue'
+// import IconApple from '../components/icons/IconApple.vue'
 import FooterComponent from '../components/FooterComponent.vue';
 </script>

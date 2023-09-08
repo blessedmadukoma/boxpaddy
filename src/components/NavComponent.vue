@@ -5,9 +5,15 @@
         <IconLogo />
       </li>
       <div class="flex">
-        <li class="link">Home</li>
-        <li class="link ml-16">Driver</li>
-        <li class="link ml-16">FAQ</li>
+        <a href="/">
+          <li class="link ml-16">Home</li>
+        </a>
+        <a href="/driver">
+          <li class="link ml-16">Driver</li>
+        </a>
+        <a href="/faq">
+          <li class="link ml-16">FAQ</li>
+        </a>
       </div>
     </ul>
   </nav>

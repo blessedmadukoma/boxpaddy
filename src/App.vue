@@ -7,7 +7,7 @@ import NavComponent from './components/NavComponent.vue';
   <!-- <div class="max-w-5xl mx-auto w-full"> -->
   <main class="max-w-[1440px] mx-auto items-center bg-white">
 
-    <div v-if="this.$isMobile()">
+    <div v-if="$isMobile()">
       <h1>Mobile</h1>
     </div>
 
