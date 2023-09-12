@@ -23,9 +23,9 @@
         </div>
 
         <div class="pt-28 relative">
-          <img class="absolute right-2 w-72 bottom-20 z-50" src="../assets/svgs/iphone.svg" alt="" />
+          <img class="absolute right-20 w-72 bottom-20 z-50" src="../assets/svgs/iphone.svg" alt="" />
 
-          <img src="../assets/svgs/spiral.svg" alt="" class="ml-40 mt-4 pt-52" />
+          <img src="../assets/svgs/spiral.svg" alt="" class="ml-20 mt-4 pt-52" />
         </div>
       </section>
 
