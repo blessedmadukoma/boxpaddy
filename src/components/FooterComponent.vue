@@ -31,7 +31,9 @@
     <!-- Footer -->
     <section class="mt-20 grid grid-cols-5 tracking-wider text-primary-purple mb-10">
       <div>
-        <IconLogo />
+        <a href="/">
+          <IconLogo />
+        </a>
       </div>
 
       <div class="flex flex-col ml-10">
@@ -59,14 +61,23 @@
         </ul>
       </div>
 
-      <div class="">
+      <div>
         <div class="italic font-lato text-black">BoxPaddy is available on</div>
-        <div class="flex justify-between my-4">
-          <h1>Button 1</h1>
-          <h1>Button 2</h1>
+
+        <div class="pt-2 flex justify-between my-4 text-white text-sm w-full">
+          <div class="cursor-pointer bg-primary-purple px-3 py-1 rounded-lg flex text-center items-center">
+            <IconApple color="#fff" class="w-4" />
+            <span class="ml-2 text-sm">App Store</span>
+          </div>
+
+          <div class="cursor-pointer bg-primary-purple px-3 py-1 rounded-lg flex text-center items-center">
+            <IconPlaystore color="#fff" class="w-4" />
+            <span class="ml-2 text-sm">Play Store</span>
+          </div>
         </div>
-        <div class="text-center">
-          <img src="../assets/svgs/socials.svg" alt="socials" />
+
+        <div class="pt-2 w-full mx-auto items-center">
+          <img class="text-center mx-auto w-30" src="../assets/svgs/socials.svg" alt="socials" />
         </div>
       </div>
     </section>
@@ -75,7 +86,9 @@
 </template>
 
 <script setup>
+import IconApple from './icons/IconApple.vue';
 import IconLogo from './icons/IconLogo.vue';
+import IconPlaystore from './icons/IconPlaystore.vue';
 // import IconApple from '../components/icons/IconApple.vue'
 // import IconPlaystore from '../components/icons/IconPlaystore.vue'
 

@@ -1,9 +1,11 @@
 <template>
   <nav class="max-w-[1250px] mx-auto w-full font-lato font-semibold text-[17px]">
     <ul class="flex items-center justify-between mx-10">
-      <li class="link">
-        <IconLogo />
-      </li>
+      <a href="/">
+        <li class="link">
+          <IconLogo />
+        </li>
+      </a>
       <div class="flex">
         <a href="/">
           <li class="link ml-16">Home</li>

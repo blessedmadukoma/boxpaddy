@@ -5,7 +5,7 @@
       <!-- Hero section -->
       <img src="../assets/svgs/rectangles.svg" alt="" class="absolute" />
 
-      <section class="py-16 max-w-7xl mx-auto w-full px-20 flex justify-between">
+      <section class="py-16 mx-auto w-full px-20 flex justify-between">
         <div class="text-left pt-32 space-y-5 max-w-[600px]">
           <h1 class="text-6xl">
             <span class="text-primary-purple tracking-wide">Deliver</span> Your Goods With

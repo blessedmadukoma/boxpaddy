@@ -7,11 +7,11 @@ import NavComponent from './components/NavComponent.vue';
   <!-- <div class="max-w-5xl mx-auto w-full"> -->
   <main class="max-w-[1440px] mx-auto items-center bg-white">
 
-    <div v-if="$isMobile()">
+    <!-- <div>
       <h1>Mobile</h1>
-    </div>
+    </div> -->
 
-    <div v-else>
+    <div>
       <header class="py-6">
         <NavComponent />
       </header>

@@ -8,6 +8,9 @@ export const theme = {
     fontFamily: {
       sans: ['"Harabara"', 'Inter', 'sans-serif'],
       lato: ['"Lato"']
+    },
+    backgroundImage: {
+      faq: "url('/src/assets/imgs/faq-background.png')"
     }
   }
 }
