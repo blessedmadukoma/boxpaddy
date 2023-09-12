@@ -10,7 +10,8 @@ export const theme = {
       lato: ['"Lato"']
     },
     backgroundImage: {
-      faq: "url('/src/assets/imgs/faq-background.png')"
+      faq: "url('/src/assets/imgs/faq-background.png')",
+      driver: "url('/src/assets/svgs/driver.svg')"
     }
   }
 }
